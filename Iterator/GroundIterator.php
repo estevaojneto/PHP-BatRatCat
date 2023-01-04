@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-class FelineIterator implements \Iterator
+class GroundIterator implements \Iterator
 {
     public array $animals;
     public function __construct(string $animals)
@@ -15,11 +15,11 @@ class FelineIterator implements \Iterator
 
     public function current()
     {
-        $current_attribute = current($this->animals)['attribute'];
-        if ($current_attribute !== 'feline')
+        $current_movement = current($this->animals)['movement'];
+        if ($current_movement !== 'ground')
         {
             // Example logic: if animal is not a feline, throw a Warning
-            trigger_error("Animal '". current($this->animals)['name'] ."' is not a feline!");
+            trigger_error("Animal '". current($this->animals)['name'] ."' is not an animal that walks or runs!");
         }
         return current($this->animals);
     }

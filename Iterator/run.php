@@ -6,11 +6,11 @@ spl_autoload_register(function ($class) {
 
 $animals_json = file_get_contents(dirname(__DIR__).'/data.json');
 
-$felines = new FelineIterator($animals_json);
+$felines = new GroundIterator($animals_json);
 $rodents = new RodentIterator($animals_json);
 $carnivore = new CarnivoreIterator($animals_json);
 
-echo "==== FELINE ITERATOR EXAMPLE ====".PHP_EOL;
+echo "==== GROUND ANIMAL ITERATOR EXAMPLE ====".PHP_EOL;
 foreach ($felines as $animal => $data)
 {
     print_r($data);

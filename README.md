@@ -47,3 +47,8 @@ In situations where more than one pattern could be used, I will mention it in th
 ## "X" Pattern is missing
 
 These Patterns will be continually added and reviewed, it might be that the ones you want aren't here yet. I apologise for so - if there is any Pattern not here that you would like me to do an example, by all please let me know! You can find my LinkedIn page in my Github profile.
+
+## Note about Design Patterns in general
+
+There is currently a huge discussion going around in the programmers' world about certain programmers who get fixated in memorizing OOP concepts and patterns. My view is that Design Patterns should be used to solve or avoid programming problems. So this repo can be used as a reference for PHP developers, or even people who work with OOP in general; however we must never forget that patterns aren't just meant to look pretty or show-off to others how much you memorized them. Remember that context matters and that the programmer is not alone in the development of any technology product.
+
