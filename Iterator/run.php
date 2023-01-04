@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 spl_autoload_register(function ($class) {
-    include $class . '.class.php';
+    include $class . '.php';
 });
 
 $animals_json = file_get_contents(dirname(__DIR__).'/data.json');

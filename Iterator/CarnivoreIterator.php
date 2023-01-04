@@ -16,6 +16,11 @@ class CarnivoreIterator implements \Iterator
 
     public function current()
     {
+        $current_food = current($this->animals)['food'];
+        if ($current_food === 'carnivore')
+        {
+            echo PHP_EOL."Got one!".PHP_EOL;
+        }
         return current($this->animals);
     }
 

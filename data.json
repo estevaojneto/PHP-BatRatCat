@@ -10,6 +10,7 @@
         "name": "rat",
         "attribute": "rodent",
         "movement": "ground",
+        "food": "herbivore",
         "description": "Known cheese enthusiast"
     },
     {
