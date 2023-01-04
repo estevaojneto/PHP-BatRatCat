@@ -30,7 +30,8 @@ Because they sound like similar names for animals which are different between th
 
 
 I do know these are very simplified and crass views of each animal, but they are good for illustrating the Patterns I want to show.
-*Bats are actually closer to primates than to rodents, but it is a common mistake so we'll use that for the example.
+
+*Bats are actually not rodents and are actually closer to primates, but it is a common mistake so we'll use that for the example.
 
 ## How can I run the examples?
 
@@ -39,7 +40,8 @@ Run `php run.php` inside each example folder. Please note the examples here were
 
 ## Why didn't you use "X" Pattern here?
 
-I have set the constraint of using *only* the Pattern I would like to demonstrate in each example. This is so the code base for each example wouldn't exponentially grow; for example, in the Iterator example, I could have used Factories for each Iterator; the simple example would then expand to something much bigger. So I'm limiting to showing only *one* Pattern per example.
+I have set the constraint of using *only* the Pattern I would like to demonstrate in each example. This is so the code base for each example wouldn't exponentially grow; for example, in the Iterator example, I could have used Factories for each Iterator; the simple example would then expand to something much bigger. So I have set a goal to show only *one* Pattern per example.
+In situations where more than one pattern could be used, I will mention it in the respective documentation of the Pattern.
 
 
 ## "X" Pattern is missing
