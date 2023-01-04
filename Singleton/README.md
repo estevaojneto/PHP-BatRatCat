@@ -1,6 +1,6 @@
 # Singleton Design Pattern
 
-## What it is?
+## What is it?
 
 The Singleton is a pattern (argued by some as an anti-pattern; I'll get to it) which ensures that throughout the lifecycle of a script, only a single instance of the class is created and used. It has some tell-tale signs of it being used; the constructor is private or protected (if you want to use inheritance), there is a static method called "getInstance()", and there is a static value that is usually called `$instance`. These are ways you can tell if a class is using the Singleton pattern or not.
 

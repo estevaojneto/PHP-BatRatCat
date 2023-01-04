@@ -1,6 +1,6 @@
 # Factory Design Pattern
 
-## What it is?
+## What is it?
 
 The Factory Design Pattern allows you to create an specialized object without having to specify exactly what object should be created.
 

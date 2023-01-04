@@ -1,6 +1,6 @@
 # Abstract Factory Design Pattern
 
-## What it is?
+## What is it?
 You can think of the Abstract Factory design pattern as a "factory of factories". The Factory Design Pattern is used to help determine the correct object to be created under a certain condition - in the case of the Abstract Factory, it takes that idea further: it allows us to be as flexible as not even having to define the type of Factory we want to use - as long as all factories implement a common interface.
 
 ## How can it be used?

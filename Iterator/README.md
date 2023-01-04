@@ -1,6 +1,6 @@
 # Iterator Design Pattern
 
-## What it is?
+## What is it?
 
 PHP implements an Interface called "Traversable" which is implemented by everything (objects, arrays) that you can iterate over using a foreach().
 
