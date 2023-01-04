@@ -22,7 +22,7 @@ If you check `data.json`, it has a list of each animal and its attributes. You c
 Because they sound like similar names for animals which are different between them. Despite that, they are animals which might overlap between them in some characteristics:
 
 
-- Rats and Bats are rodents, but Cats are felines;
+- Rats and Bats are (kind-of) rodents*, but Cats are felines;
 
 - Cats and Rats can only walk and run, but Bats can fly;
 
@@ -45,3 +45,7 @@ I have set the constraint of using *only* the Pattern I would like to demonstrat
 ## "X" Pattern is missing
 
 These Patterns will be continually added and reviewed, it might be that the ones you want aren't here yet. I apologise for so - if there is any Pattern not here that you would like me to do an example, by all please let me know! You can find my LinkedIn page in my Github profile.
+
+
+
+*Bats are actually closer to primates than to rodents. You learn something new every day.

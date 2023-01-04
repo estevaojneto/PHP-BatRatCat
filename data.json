@@ -11,7 +11,7 @@
         "attribute": "rodent",
         "movement": "ground",
         "food": "herbivore",
-        "description": "Known cheese enthusiast"
+        "description": "Arguably a cheese enthusiast"
     },
     {
         "name": "cat",
