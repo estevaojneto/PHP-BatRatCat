@@ -1,0 +1,22 @@
+[
+    {
+        "name": "bat",
+        "attribute": "rodent",
+        "movement": "flying",
+        "food": "carnivore",
+        "description": "Maybe Dracula in disguise"
+    },
+    {
+        "name": "rat",
+        "attribute": "rodent",
+        "movement": "ground",
+        "description": "Known cheese enthusiast"
+    },
+    {
+        "name": "cat",
+        "attribute": "feline",
+        "movement": "ground",
+        "food": "carnivore",
+        "description": "Internet's favorite animal"
+    }
+]
