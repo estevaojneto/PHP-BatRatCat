@@ -10,7 +10,7 @@ If you have ever worked with Laravel, I think you most likely have already seen 
 
 `Http::send('GET', {$server}, ['body' => {the data I want to send}]);`
 
-...which is a single-line of code much more readable than all the `curl_` configuration functions that you usually have to do when the framework does not a offer *Http facade*, like Laravel does.
+...which is a single-line of code much more readable than all the `curl_` configuration functions that you usually have to do when the framework does not offer a *Http facade*, like Laravel does.
 
 The example here uses PHP's own functions for hashing or encoding strings. We don't control PHP's functions - we just offer a facade (aha!) to allow easy usage of such functions.
 
