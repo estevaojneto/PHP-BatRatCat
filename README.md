@@ -29,8 +29,8 @@ Because they sound like similar names for animals which are different between th
 - Bats and Cats are carnivores, but Rats are herbivore.
 
 
-Any biologist will probably want to kill me by now; I do know these are very simplified and crass views of each animal, but they are good for illustrating the Patterns I want to show.
-
+I do know these are very simplified and crass views of each animal, but they are good for illustrating the Patterns I want to show.
+*Bats are actually closer to primates than to rodents, but it is a common mistake so we'll use that for the example.
 
 ## How can I run the examples?
 
@@ -45,7 +45,3 @@ I have set the constraint of using *only* the Pattern I would like to demonstrat
 ## "X" Pattern is missing
 
 These Patterns will be continually added and reviewed, it might be that the ones you want aren't here yet. I apologise for so - if there is any Pattern not here that you would like me to do an example, by all please let me know! You can find my LinkedIn page in my Github profile.
-
-
-
-*Bats are actually closer to primates than to rodents. You learn something new every day.
