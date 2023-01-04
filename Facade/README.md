@@ -6,7 +6,7 @@ Facade is one of the Patterns whose name is already very close to defining its c
 
 ## How can it be used?
 
-If you have ever worked with Laravel, I think you most likely have already seen this pattern in use. So I will use it with a real-world example: recently I had to do a cURL from within a system which used Laravel. The process of constructing the PHP-cURL object (can take quite a few lines of code)[https://www.php.net/manual/en/curl.examples-basic.php]. In Laravel I could simply do:
+If you have ever worked with Laravel, I think you most likely have already seen this pattern in use. So I will use it with a real-world example: recently I had to do a cURL from within a system which used Laravel as its framework. The process of constructing the PHP-cURL object [can take quite a few lines of code](https://www.php.net/manual/en/curl.examples-basic.php). In Laravel I could simply do:
 
 `Http::send('GET', {$server}, ['body' => {the data I want to send}]);`
 
