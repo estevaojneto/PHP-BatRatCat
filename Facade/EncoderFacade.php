@@ -2,7 +2,7 @@
 
 class EncoderFacade
 {
-    public static function doEncode($data, $type)
+    public static function doHashEncode($data, $type)
     {
         switch ($type)
         {

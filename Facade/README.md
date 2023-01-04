@@ -16,4 +16,4 @@ The example here uses PHP's own functions for encoding strings. We don't control
 
 ## How could it be done differently
 
-I could have taken the abstraction a level further and have each encoder have its own class. In this particular example, of course I could have just called the encoding functions directly, but that will not always be possible in more complex systems, thus why Facades are important.
+I could have taken the abstraction a level further and have each encoder have its own class. I could also have split the hashing and encoding functions in different facades, too. In this particular example, of course I could have just called the encoding and hashing functions directly, but that will not always be possible in more complex systems, thus why Facades are important.
