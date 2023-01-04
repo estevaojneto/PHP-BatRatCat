@@ -16,6 +16,6 @@ However, in defence of the Singleton detractors, I will say this: its overuse ca
 
 As you can see, this example outputs `cat cat`. This is intentional.
 
-In my example I am ensuring that only a single object of AnimalSingleton can be created, and also that its property `$animal_name` can be set only once. So when I try to get the Singleton instance and pass another value to it, it will not accept it. This demonstrates the application of the Singleton because I am running `getInstance()` to get the Singleton instance; if a new object were being created, then `$animal_name` could be changed, and we would get `cat bat` as output.
+In my example I am ensuring that only a single object of AnimalSingleton can be created, and also that its property `$animal_name` can be set only once per instance. So when I try to get the Singleton instance and pass another value to it, it will not work. This demonstrates the application of the Singleton because I am running `getInstance()` to get the Singleton instance; if a new object were being created, then `$animal_name` could be changed, and we would get `cat bat` as output.
 
 You also can use a static array to save multiple instances of a Singleton. I've never had a reason to apply that idea, but it isn't impossible.
