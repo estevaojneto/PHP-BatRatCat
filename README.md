@@ -17,7 +17,7 @@ These are practical examples implementations of the most popular PHP Design Patt
 If you check `data.json`, it has a list of each animal and its attributes. You can think of this, for example, as the return info for an API, and each example as a possible use-case for consuming that API using PHP.
 
 
-## Why Cat, Rat and Bat?
+## Why Bat, Rat and Cat?
 
 Because they sound like similar names for animals which are different between them. Despite that, they are animals which might overlap between them in some characteristics:
 
