@@ -18,5 +18,6 @@ Those are very basic examples of how business logic can be applied inside each s
 ## How could it be done differently
 I could have created an AnimalIteratorFactory for factoring each one of the 3 iterators here. This would also allow me to create a superclass AnimalIterator which could, for example, tell if what I was iterating over is actually an animal, and not a vegetable for example. Iterators are a very powerful tool which PHP offers us.
 
+Additionally, instead of iterating over a decoded JSON (associative array), I could create an AnimalCollection which implements IteratorAggregate; it would be possible to use the method getIterator() to fetch an iterator for this collection.
 
 PHP7.1 onwards implements a function "is_iteratable()" which does exactly that: tells you if a certain value type implements Traversable (or to put it simply: if you can use a foreach() to operate on it).
