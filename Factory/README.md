@@ -15,4 +15,4 @@ While in this example it would seem much more easier to just do the switch() cla
 One thing I could have implemented is an Interface called "Noise" in the parent class Animal which implements a function "doSound()". So you could call like "$cat->doSound()" and get a string "meow" in return, provided that the doSound() method inside the class "Cat" did a `return "meow";`.
 
 
-Another pattern which could have been used is the Null Object Pattern; instead of the constructor returning `false`, it could return a NullAnimal object. This would ensure type safety, as the constructor would *always* return an object of the type Animal, even if it was an invalid animal (NullAnimal).
+Another pattern which could have been used is the Null Object Pattern; instead of the Factory returning `false` if we came across an animal we don't have a class for, it could return a NullAnimal object. This would ensure type safety, as the constructor would *always* return an object of the type Animal, even if it was an invalid animal (NullAnimal).
