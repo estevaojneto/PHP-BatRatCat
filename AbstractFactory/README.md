@@ -10,6 +10,8 @@ This capacity allows us to have flexibility not only in the objects we create (w
 
 
 ## How could it be done differently
+This example could be replaced with a Strategy Design Pattern - and that's what I did in the Strategy Design Pattern if you'd like to check it.
+
 I have seen examples where the abstract factory (AnimalFactory in this case) is not an Interface, but an Abstract class. I prefer the Interface approach in this case.
 
 My initial attempt at the implementation here did use an Abstract class so I did not have to create e.g a `createCat()` inside a `HerbivoreFactory`, which makes no sense. Interfaces *require* you to create a matching function in the class where it is implemented - abstract classes don't. So turns out that even though I _could_ use an Abstract class instead of an Interface, in reality using that animal characteristic for the abstraction was not the correct approach.
