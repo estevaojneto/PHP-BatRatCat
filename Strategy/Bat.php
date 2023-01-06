@@ -2,7 +2,7 @@
 
 class Bat implements AnimalInterface
 {
-    public function doSound()
+    public function eat()
     {
         echo "The Bat Strategy: click click click clickity click!".PHP_EOL;
     }
