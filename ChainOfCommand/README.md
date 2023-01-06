@@ -12,7 +12,7 @@ The bat does not eat garlic; in a more scientific language, this object is not c
 The next in line is the cat. The cat also cannot process our request to eat garlic; it must pass it on.
 The last one in line is the rat. It can process the garlic; this is the one that will actually do our processing.
 
-Once we try to offer any other food than garlic, all dietary restrictions are removed, and the first in line (bat) can actually do the processing (eat).
+Once we try to offer any other food than garlic, all dietary restrictions are removed, and the first in line (bat) can actually do the processing (eat). Finally, I can also try someone who is in the middle of the chain of command, like the cat, and it can also process any other food other than garlic, so processing is successful at that point too. Thus, all animals were fed.
 
 This is especially useful in handling HTTP requests - if you are familiar with network, it might even have reminded how TCP/IP works. Depending on the type of response you obtain from a certain request, you might need a chain of command to do the correct processing of the information. 
 

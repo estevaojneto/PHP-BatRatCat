@@ -15,7 +15,11 @@ echo "Feeding Garlic:".PHP_EOL;
 $hungry_bat->eat($food);
 
 echo PHP_EOL;
-
-echo "Feeding some other food:".PHP_EOL;
 $food = "anything but garlic";
+echo "Feeding some other food:".PHP_EOL;
 $hungry_bat->eat($food);
+
+echo PHP_EOL;
+$food = "tuna";
+echo "Trying in a different point of the chain of command:".PHP_EOL;
+$hungry_cat->eat($food);

@@ -9,7 +9,7 @@ class Cat extends FoodChain
             echo "CAT: I cannot eat garlic because it is lethal for my species!".PHP_EOL;
             return parent::eat($food);
         } else {
-            echo "BAT: Thanks for the snack!";
+            echo "CAT: Thanks for the snack!";
             return true;
         }
     }
