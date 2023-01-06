@@ -14,8 +14,8 @@ The last one in line is the rat. It can process the garlic; this is the one that
 
 Once we try to offer any other food than garlic, all dietary restrictions are removed, and the first in line (bat) can actually do the processing (eat).
 
-This is especially useful in handling HTTP requests (curiously, it reminds how TCP/IP works). Depending on the type of response you obtain from a certain request, you might need a chain of command to do the correct processing of the information. 
+This is especially useful in handling HTTP requests - if you are familiar with network, it might even have reminded how TCP/IP works. Depending on the type of response you obtain from a certain request, you might need a chain of command to do the correct processing of the information. 
 
 ## How could it be done differently
 
-In my examples all the processing I do is just checking  if the food is garlic or not. Of course, in the real world, a lot more processing _may or may not_ be done by each member in the chain. This also allows for the possibility of one member of the chain doing part of the processing, then other one doing another part, and so on.
+In my examples all the processing I do is just checking  if the food is garlic or not. Of course, in the real world, a lot more processing _may or may not_ be done by each member in the chain. This also allows for the possibility of each one of the members of the chain doing part of the processing (again, similar to how TCP/IP works), then other one doing another part, and so on.
