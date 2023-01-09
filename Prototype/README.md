@@ -15,7 +15,7 @@ $a = new someClass(); $a->value = 1; $b = $a; $b->value = 2; echo $a->value;
 
 [This will print out a "2", not a "1".](https://3v4l.org/V1CrX)
 
-See how I changed the value in $a even though I'm calling the change method from $b? Variables $a and $b point to the same data in the memory - they are just aliases of eachother. This is for the purposes of better memory management, as far as I am concerned. It means that PHP works differently from e.g. C, in which creating a reference must be done via pointers; if this were C, `int a = *b;` would create a pointer to the content of `b`, and `int a = b;` reserves a new memory space `a` with the same contents as `b`.
+See how I changed the value in `$a` even though I'm calling the change method from `$b`? Variables `$a` and `$b` point to the same data in the memory - they are just aliases of eachother. I am just using different "names" to reference the same object in the memory. It means that PHP works differently from e.g. C, in which creating a reference must be done via pointers; if this were C, `int a = *b;` would create a pointer to the content of integer `b`, and `int a = b;` reserves a new memory space `a` with the same numeric contents as `b`.
 
 ## How can it be used?
 
